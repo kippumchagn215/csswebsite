@@ -1,0 +1,126 @@
+/*Element Styles*/
+body{
+  text-align: center;
+  background-color: #fff8cd;
+
+}
+h1{
+  width: 20%;
+  margin: 40px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+}
+span{
+  text-decoration: underline;
+}
+
+/*Class styles*/
+
+/*Headings*/
+.heading_skills{
+  color: #00adb5;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/*Lines*/
+.Dot_line{
+  color: #364f6b;
+  margin: 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  width: 50px;
+  border-width: 5px;
+}
+
+/*Images*/
+.TopCloud_img{
+  position: absolute;
+  right: 600px;
+  top: 210px;
+}
+.BottomCloud_img{
+  position: absolute;
+  top: 270px;
+}
+.school_img{
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  float: left;
+}
+.project_img{
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  float: left;
+  border-style: solid;
+}
+.img-skills{
+  width: 100px;
+  height: 100px;
+}
+
+/*Infos*/
+.school_info{
+  margin: 30px auto;
+}
+.project_info{
+  margin: 40px auto;
+  padding: 10px;
+}
+
+/*Container*/
+.intro-container{
+  padding-top: 50px;
+  position:relative;
+}
+.edu_container{
+  width: 40%;
+  text-align: left;
+  margin: 50px auto;
+}
+.project_container{
+  width: 40%;
+  text-align: left;
+  margin: 50px auto;
+}
+.skills_container{
+  margin: 70px auto;
+}
+
+/*Links*/
+.footer-link{
+  display: inline-block;
+}
+
+/*Buttons*/
+.btn {
+  background: #0094f7;
+  background-image: -webkit-linear-gradient(top, #0094f7, #0adaff);
+  background-image: -moz-linear-gradient(top, #0094f7, #0adaff);
+  background-image: -ms-linear-gradient(top, #0094f7, #0adaff);
+  background-image: -o-linear-gradient(top, #0094f7, #0adaff);
+  background-image: linear-gradient(to bottom, #0094f7, #0adaff);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #03ff3e;
+  font-size: 13px;
+  padding: 10px 21px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0fa0fa;
+  background-image: -webkit-linear-gradient(top, #0fa0fa, #0099ff);
+  background-image: -moz-linear-gradient(top, #0fa0fa, #0099ff);
+  background-image: -ms-linear-gradient(top, #0fa0fa, #0099ff);
+  background-image: -o-linear-gradient(top, #0fa0fa, #0099ff);
+  background-image: linear-gradient(to bottom, #0fa0fa, #0099ff);
+  text-decoration: none;
+}
