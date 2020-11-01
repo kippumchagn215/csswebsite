@@ -41,6 +41,7 @@ span{
   position: absolute;
   right: 600px;
   top: 210px;
+  z-index: -1;
 }
 .BottomCloud_img{
   position: absolute;
